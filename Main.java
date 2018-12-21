@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class Main {
 	public static void main(String[] args) throws Exception {
-		String path = "src\\input12.txt";
+		String path = "src\\input.txt";
 		ArrayList<String> input = new ArrayList<String>();
 		try(BufferedReader br = new BufferedReader(new FileReader(path))){
 			String str;
